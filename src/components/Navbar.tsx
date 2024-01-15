@@ -11,7 +11,7 @@ export const Navbar = component$(() => {
       <div class="mx-auto flex flex-wrap items-center justify-between">
         <div class="w-full p-3 lg:px-5 lg:pl-3">
           <div class="flex items-center justify-between">
-            <div class="flex items-center">
+            <div class="pl-2 pt-2">
               <a href="/" class="flex items-center">
                 <QwikIcon theme={themeSig.value} />
               </a>
