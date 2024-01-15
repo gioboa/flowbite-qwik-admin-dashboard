@@ -1,5 +1,6 @@
 import { component$, Slot } from "@builder.io/qwik";
 import type { RequestHandler } from "@builder.io/qwik-city";
+import { Aside } from "~/components/Aside";
 import { Navbar } from "~/components/Navbar";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
@@ -15,11 +16,14 @@ export const onGet: RequestHandler = async ({ cacheControl }) => {
 
 export default component$(() => {
   return (
-    <>
+    <div class="bg-gray-50 dark:bg-gray-900">
       <Navbar />
-      <main>
-        <Slot />
-      </main>
-    </>
+      <div class="flex items-start pt-16">
+        <Aside />
+        <main class="relative ml-64 h-full w-full overflow-y-auto">
+          <Slot />
+        </main>
+      </div>
+    </div>
   );
 });
