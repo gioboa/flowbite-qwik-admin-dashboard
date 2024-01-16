@@ -38,11 +38,8 @@ export const Aside = component$(() => {
                 </div>
               </div>
             </form>
-            <div class="" data-testid="flowbite-sidebar-items">
-              <ul
-                class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
-                data-testid="flowbite-sidebar-item-group"
-              >
+            <div>
+              <ul class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700">
                 <li>
                   <a
                     aria-labelledby="flowbite-sidebar-item-:r1:"
@@ -56,7 +53,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +62,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:r1:"
                     >
                       Dashboard
@@ -86,7 +81,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +93,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:r3:"
                     >
                       Products
@@ -119,7 +112,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -128,7 +120,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:r5:"
                     >
                       Users list
@@ -148,7 +139,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -161,7 +151,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:r7:"
                     >
                       Sign in
@@ -181,7 +170,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +178,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:r9:"
                     >
                       Sign up
@@ -198,10 +185,7 @@ export const Aside = component$(() => {
                   </a>
                 </li>
               </ul>
-              <ul
-                class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700"
-                data-testid="flowbite-sidebar-item-group"
-              >
+              <ul class="mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700">
                 <li>
                   <a
                     aria-labelledby="flowbite-sidebar-item-:rb:"
@@ -215,7 +199,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +208,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:rb:"
                     >
                       Docs
@@ -245,7 +227,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -254,7 +235,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:rd:"
                     >
                       Components
@@ -274,7 +254,6 @@ export const Aside = component$(() => {
                       viewBox="0 0 20 20"
                       aria-hidden="true"
                       class="h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white"
-                      data-testid="flowbite-sidebar-item-icon"
                       height="1em"
                       width="1em"
                       xmlns="http://www.w3.org/2000/svg"
@@ -287,7 +266,6 @@ export const Aside = component$(() => {
                     </svg>
                     <span
                       class="flex-1 whitespace-nowrap px-3"
-                      data-testid="flowbite-sidebar-item-content"
                       id="flowbite-sidebar-item-:rf:"
                     >
                       Help
