@@ -60,12 +60,7 @@ export const Aside = component$(() => {
                       <path d="M2 10a8 8 0 018-8v8h8a8 8 0 11-16 0z"></path>
                       <path d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:r1:"
-                    >
-                      Dashboard
-                    </span>
+                    <span class="flex-1 whitespace-nowrap px-3">Dashboard</span>
                   </a>
                 </li>
                 <li>
@@ -91,12 +86,7 @@ export const Aside = component$(() => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:r3:"
-                    >
-                      Products
-                    </span>
+                    <span class="flex-1 whitespace-nowrap px-3">Products</span>
                   </a>
                 </li>
                 <li>
@@ -118,10 +108,7 @@ export const Aside = component$(() => {
                     >
                       <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:r5:"
-                    >
+                    <span class="flex-1 whitespace-nowrap px-3">
                       Users list
                     </span>
                   </a>
@@ -149,12 +136,7 @@ export const Aside = component$(() => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:r7:"
-                    >
-                      Sign in
-                    </span>
+                    <span class="flex-1 whitespace-nowrap px-3">Sign in</span>
                   </a>
                 </li>
                 <li>
@@ -176,12 +158,7 @@ export const Aside = component$(() => {
                     >
                       <path d="M13.586 3.586a2 2 0 112.828 2.828l-.793.793-2.828-2.828.793-.793zM11.379 5.793L3 14.172V17h2.828l8.38-8.379-2.83-2.828z"></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:r9:"
-                    >
-                      Sign up
-                    </span>
+                    <span class="flex-1 whitespace-nowrap px-3">Sign up</span>
                   </a>
                 </li>
               </ul>
@@ -206,12 +183,7 @@ export const Aside = component$(() => {
                       <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z"></path>
                       <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z"></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:rb:"
-                    >
-                      Docs
-                    </span>
+                    <span class="flex-1 whitespace-nowrap px-3">Docs</span>
                   </a>
                 </li>
                 <li>
@@ -233,10 +205,7 @@ export const Aside = component$(() => {
                     >
                       <path d="M7 3a1 1 0 000 2h6a1 1 0 100-2H7zM4 7a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zM2 11a2 2 0 012-2h12a2 2 0 012 2v4a2 2 0 01-2 2H4a2 2 0 01-2-2v-4z"></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:rd:"
-                    >
+                    <span class="flex-1 whitespace-nowrap px-3">
                       Components
                     </span>
                   </a>
@@ -264,12 +233,7 @@ export const Aside = component$(() => {
                         clip-rule="evenodd"
                       ></path>
                     </svg>
-                    <span
-                      class="flex-1 whitespace-nowrap px-3"
-                      id="flowbite-sidebar-item-:rf:"
-                    >
-                      Help
-                    </span>
+                    <span class="flex-1 whitespace-nowrap px-3">Help</span>
                   </a>
                 </li>
               </ul>
