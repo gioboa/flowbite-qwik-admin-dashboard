@@ -1,6 +1,4 @@
-import { component$ } from "@builder.io/qwik";
-
-export const SunIcon = component$(() => (
+export const SunIcon = () => (
   <svg
     stroke="currentColor"
     fill="currentColor"
@@ -18,4 +16,4 @@ export const SunIcon = component$(() => (
       clip-rule="evenodd"
     ></path>
   </svg>
-));
+);
